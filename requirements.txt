@@ -1,0 +1,11 @@
+# MATH 465 Fall 2026 student environment
+# Tested together on Python 3.11.
+# NumPy 2.4 avoids the spurious macOS Accelerate matmul warnings seen with
+# the older NumPy 2.0.2 installation on the instructor computer.
+numpy==2.4.3
+scipy==1.17.1
+pandas==2.3.3
+matplotlib==3.10.8
+scikit-learn==1.8.0
+jupyterlab==4.5.6
+ipykernel==7.2.0
