@@ -9,6 +9,8 @@ For instructions on installing Conda and JupyterLab, see
 [Environment setup](SETUP.md). The classic Jupyter Notebook can also run the
 course `.ipynb` files, but JupyterLab is recommended.
 
+With Git and Conda installed, run the following commands in a terminal:
+
 ```bash
 git clone https://github.com/xycheng/math465_f2026.git
 cd math465_f2026
@@ -36,20 +38,28 @@ the output produced by the code. A notebook is divided into cells.
 6. Save the notebook with **File > Save Notebook**, `Ctrl+S` on Windows and
    Linux, or `Command+S` on macOS.
 
-If a cell shows `[*]`, it is still running. A number such as `[1]` means that
-the cell has finished and records its position in the execution order.
+If a code cell shows `[*]`, it is running or waiting to run. A number such as
+`[1]` is its execution count: it records the order in which code cells were
+run, rather than their position in the notebook. Check the output for any
+error messages.
 
 ## Demos
 
-| Module | Notebook | Topics |
-| --- | --- | --- |
-| 1 | [Setup, plots, random seeds](demos/Module1_setup_plots_seed.ipynb) | Environment check, computational scaling, and reproducibility |
+| Module | Demo |
+| --- | --- |
+| 1 | [Setup, computational scaling, and random seeds](demos/Module1_setup_plots_seed.ipynb) |
+| 1 | [k-means](demos/Module1_kmeans.ipynb) |
+| 2 | [Demo 1: Basic PCA on simulated and Wine data](demos/Module2_PCA1.ipynb) |
+| 2 | [Demo 2: PCA of evolving data and high-dimensional images](demos/Module2_PCA2.ipynb) |
+| 2 | [Demo 3: PCA when the dimension exceeds the sample size](demos/Module2_PCA3.ipynb) |
+| 3 | [Demo 1: MDS and Isomap](demos/Module3_MDS_Isomap.ipynb) |
+| 3 | [Demo 2: t-SNE on clustered data and the Swiss roll](demos/Module3_tSNE.ipynb) |
 
 Additional demonstrations will be added during the semester.
 
 ## Updating the course files
 
-From inside the repository, run:
+From a terminal inside the `math465_f2026` repository folder, run:
 
 ```bash
 git pull
