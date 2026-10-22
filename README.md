@@ -54,6 +54,7 @@ error messages.
 | 2 | [Demo 3: PCA when the dimension exceeds the sample size](demos/Module2_PCA3.ipynb) |
 | 3 | [Demo 1: MDS and Isomap](demos/Module3_MDS_Isomap.ipynb) |
 | 3 | [Demo 2: t-SNE on clustered data and the Swiss roll](demos/Module3_tSNE.ipynb) |
+| 4 | [Spectral clustering](demos/Module4_spectral_clustering.ipynb) |
 
 Additional demonstrations will be added during the semester.
 
