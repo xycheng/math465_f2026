@@ -56,6 +56,7 @@ error messages.
 | 3 | [Demo 2: t-SNE on clustered data and the Swiss roll](demos/Module3_tSNE.ipynb) |
 | 4 | [Spectral clustering](demos/Module4_spectral_clustering.ipynb) |
 | 5 | [Random matrices and random graphs](demos/Module5_random_matrices_graphs.ipynb) |
+| 6 | [Gradient descent on quadratic objectives](demos/Module6_GD.ipynb) |
 
 Additional demonstrations will be added during the semester.
 
